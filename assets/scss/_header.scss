@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(3, 148, 168);
+    height: 8dvh;
+    display: flex;
+    align-content: center;
+    
+    nav{
+        width: 95%;
+        margin: auto;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            padding-left: 0;
+            li{
+                cursor: pointer;
+                padding: 7px;
+                background-color: rgb(10, 176, 191);
+                border-radius: 15px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .addToSafe{background-color: rgba(255, 255, 255, 0.5);}
+        }
+    }
+}

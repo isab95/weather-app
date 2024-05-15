@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(2, 56, 191);
+    color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    .research{
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        height: 4dvh;
+        margin-top: 3%;
+        input{
+            background-color: rgba(128, 128, 128, 0.4);
+            color: aliceblue;
+            border-radius: 5px 0 0 5px;
+        }
+        button{
+            border: none;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 0 5px 5px 0;
+            img{
+                height: 20px;
+            }
+        }
+    }
+    .where{
+        height: 16dvh;
+        max-width: 80%;
+        border-radius: 20px;
+        h1{
+            background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+            font-weight: bold;
+        }
+    }
+    .details{
+        height: 16dvh;
+        max-width: 80%;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .date{
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.1);
+        min-height: 8dvh;
+    }
+    div{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+    }
+}
